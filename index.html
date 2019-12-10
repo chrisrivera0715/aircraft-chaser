@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <style>
+    div.a {
+      position: relative;
+      width: 400px;
+      padding: 20px;
+    }
+
+    div.b {
+      position: absolute;
+      left: auto;
+      width: 100px;
+    }
+
+    div.c {
+      position: absolute;
+      left: 150px;
+      width: 200px;
+    }
+  </style>
+  <body>
+
+  <div class="a">
+    <div class="b">   Score <span id="score_card">0</span> </div>
+    <div class="c"> </div>
+    <div style="float: right">Health: <progress id="health" value="100" max="100"></progress>
+    <span id="health_value">100</span>
+    </div>
+  </div>
+
+
+
+  <div id="sketch-holder">
+    
+  </div>
+  </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,17 @@
+div.a {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+  }
+
+  div.b { 
+    position: absolute;
+    left: auto;
+    width: 100px;
+  }
+
+  div.c {
+    position: absolute;
+    left: 150px;
+    width: 200px;
+  }
